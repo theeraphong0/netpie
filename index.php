@@ -22,7 +22,7 @@
     var split_msg = msg.split("/"); //String data = "/" +String(Humidity) + "/" + String(Temp);
     console.log(msg);  // for debug
     if(typeof(split_msg[0])!='undefined' && split_msg[0]==""){
-      document.getElementById("Humidity_temp").innerHTML = "Humidity = " + split_msg[1] + " % ,Temp = " + split_msg[2] + " c";
+      document.getElementById("Humidity_temp").innerHTML = "ความชื้นสัมพัทธ์ในอากาศ = " + split_msg[1] + " % ,อุณหภูมิ = " + split_msg[2] + " c";
     }
   });
 
